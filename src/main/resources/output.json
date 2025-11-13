@@ -1,0 +1,13 @@
+[ {
+  "case" : "short",
+  "pattern" : "aba",
+  "matches" : [ 0, 2 ]
+}, {
+  "case" : "medium",
+  "pattern" : "test",
+  "matches" : [ 17, 30 ]
+}, {
+  "case" : "long",
+  "pattern" : "aaa",
+  "matches" : [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+} ]
