@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "short",
+      "pattern": "aba",
+      "text": "ababa",
+      "expectedMatches": [0, 2]
+    },
+    {
+      "name": "medium",
+      "pattern": "test",
+      "text": "this is a simple test text to test kmp",
+      "expectedMatches": [17, 30]
+    },
+    {
+      "name": "long",
+      "pattern": "pattern",
+      "text": "this is a very long text used to test the performance of the kmp pattern matching algorithm. the word pattern appears several times in this pattern-rich text to make sure pattern search works even on a longer input. finally, we add one more pattern here.",
+      "expectedMatches": [65, 102, 140, 171, 241]
+    }
+  ]
+}
